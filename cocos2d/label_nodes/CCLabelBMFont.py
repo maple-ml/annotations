@@ -3,7 +3,7 @@ from __future__ import annotations
 from include.CCLabelProtocol import CCLabelProtocol
 from include.CCRGBAProtocol import CCRGBAProtocol
 from sprite_nodes.CCSpriteBatchNode import CCSpriteBatchNode
-from unknown.CCTextAlignment import CCTextAlignment
+from include.textAlignment import CCTextAlignment
 from cocoa.CCPoint import CCPoint
 
 class CCLabelBMFont(CCSpriteBatchNode, CCLabelProtocol, CCRGBAProtocol):
