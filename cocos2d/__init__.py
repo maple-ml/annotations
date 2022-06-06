@@ -33,6 +33,9 @@ from include.CCTextureProtocol      import CCTextureProtocol
 from label_nodes.CCLabelAtlas       import CCLabelAtlas
 from label_nodes.CCLabelBMFont      import CCLabelBMFont
 
+# heck formatting
+from layers_scenes_transitions_nodes.CCScene import CCScene
+
 from shaders.CCGLProgram            import CCGLProgram
 from shaders.ccGLServerState        import ccGLServerState
 from shaders.OpenGL                 import GLubyte, GLuint

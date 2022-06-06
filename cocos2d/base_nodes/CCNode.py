@@ -19,7 +19,7 @@ class CCNode(CCObject):
     def init(self) -> bool: pass
     def description(self) -> str: pass
     def setZOrder(self, zOrder: int) -> None: pass
-    def setZOrder_(self, zOrder: int) -> None: pass
+    def _setZOrder(self, zOrder: int) -> None: pass
     def getZOrder(self) -> int: pass
     def setVertexZ(self, vertexZ: int) -> None: pass
     def getVertexZ(self) -> int: pass
