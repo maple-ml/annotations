@@ -1,7 +1,7 @@
 from __future__ import annotations
 
-from actions.CCAction import CCAction
-from actions.CCActionInterval import CCActionInterval
+from ..actions.CCAction import CCAction
+from ..actions.CCActionInterval import CCActionInterval
 
 class CCSpeed(CCAction):
     def getSpeed(self) -> float: pass

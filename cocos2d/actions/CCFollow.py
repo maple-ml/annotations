@@ -1,10 +1,10 @@
 from __future__ import annotations
 
-from actions.CCAction import CCAction
-from base_nodes.CCNode import CCNode
-from cocoa.CCRect import CCRect
-from cocoa.CCObject import CCObject
-from actions.CCZone import CCZone
+from ..actions.CCAction import CCAction
+from ..base_nodes.CCNode import CCNode
+from ..cocoa.CCRect import CCRect
+from ..cocoa.CCObject import CCObject
+from ..actions.CCZone import CCZone
 
 class CCFollow(CCAction):
     def isBoundarySet(self) -> bool: pass

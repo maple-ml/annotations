@@ -1,11 +1,11 @@
 from __future__ import annotations
 
-from base_nodes.CCNode import CCNode
-from base_nodes.CCNodeRGBA import CCNodeRGBA
-from include.CCTextureProtocol import CCTextureProtocol
-from textures.CCTexture2D import CCTexture2D
-from shaders.OpenGL import GLubyte
-from include.ccColor3B import ccColor3B
+from ..base_nodes.CCNode import CCNode
+from ..base_nodes.CCNodeRGBA import CCNodeRGBA
+from ..include.CCTextureProtocol import CCTextureProtocol
+from ..textures.CCTexture2D import CCTexture2D
+from ..shaders.OpenGL import GLubyte
+from ..include.ccColor3B import ccColor3B
 
 class CCAtlasNode(CCNodeRGBA, CCTextureProtocol):
     def __init__(self) -> CCNode: pass

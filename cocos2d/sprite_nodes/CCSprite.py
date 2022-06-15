@@ -1,10 +1,10 @@
 from __future__ import annotations
 
-from base_nodes.CCNodeRGBA import CCNodeRGBA
-from include.CCTextureProtocol import CCTextureProtocol
-from cocoa.CCRect import CCRect
-from textures.CCTexture2D import CCTexture2D
-from sprite_nodes.CCSpriteFrame import CCSpriteFrame
+from ..base_nodes.CCNodeRGBA import CCNodeRGBA
+from ..include.CCTextureProtocol import CCTextureProtocol
+from ..cocoa.CCRect import CCRect
+from ..textures.CCTexture2D import CCTexture2D
+from ..sprite_nodes.CCSpriteFrame import CCSpriteFrame
 
 class CCSprite(CCNodeRGBA, CCTextureProtocol):
     @staticmethod

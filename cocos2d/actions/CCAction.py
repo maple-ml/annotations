@@ -1,7 +1,7 @@
 from __future__ import annotations
 
-from cocoa.CCObject import CCObject
-from actions.CCZone import CCZone
+from ..cocoa.CCObject import CCObject
+from ..actions.CCZone import CCZone
 
 class CCAction(CCObject):
     def __init__(self) -> CCAction: pass

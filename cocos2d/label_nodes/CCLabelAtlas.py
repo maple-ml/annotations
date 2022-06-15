@@ -1,8 +1,8 @@
 from __future__ import annotations
 
-from textures.CCTexture2D import CCTexture2D
-from include.CCLabelProtocol import CCLabelProtocol
-from base_nodes.CCAtlasNode import CCAtlasNode
+from ..textures.CCTexture2D import CCTexture2D
+from ..include.CCLabelProtocol import CCLabelProtocol
+from ..base_nodes.CCAtlasNode import CCAtlasNode
 
 class CCLabelAtlas(CCAtlasNode, CCLabelProtocol):
     def __init__(self) -> CCLabelAtlas: pass

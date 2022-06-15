@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from actions.CCAction import CCAction
+from ..actions.CCAction import CCAction
 
 class CCFiniteTimeAction(CCAction):
     def getDuration(self) -> float: pass

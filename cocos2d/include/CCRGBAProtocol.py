@@ -1,7 +1,7 @@
 from __future__ import annotations
 
-from include.ccColor3B import ccColor3B
-from shaders.OpenGL import GLubyte
+from ..include.ccColor3B import ccColor3B
+from ..shaders.OpenGL import GLubyte
 
 class CCRGBAProtocol:
     def setColor(self, color: ccColor3B) -> None: pass

@@ -1,15 +1,15 @@
 from __future__ import annotations
 
-from cocoa.CCPoint import CCPoint
-from cocoa.CCArray import CCArray
-from cocoa.CCSize import CCSize
-from cocoa.CCObject import CCObject
-from cocoa.CCRect import CCRect
-from shaders.CCGLProgram import CCGLProgram
-from shaders.ccGLServerState import ccGLServerState
-from actions.CCActionManager import CCActionManager
-from actions.CCAction import CCAction
-from touch_dispatcher.CCTouch import CCTouch
+from ..cocoa.CCPoint import CCPoint
+from ..cocoa.CCArray import CCArray
+from ..cocoa.CCSize import CCSize
+from ..cocoa.CCObject import CCObject
+from ..cocoa.CCRect import CCRect
+from ..shaders.CCGLProgram import CCGLProgram
+from ..shaders.ccGLServerState import ccGLServerState
+from ..actions.CCActionManager import CCActionManager
+from ..actions.CCAction import CCAction
+from ..touch_dispatcher.CCTouch import CCTouch
 
 class CCNode(CCObject):
     def __init__(self) -> CCNode: pass

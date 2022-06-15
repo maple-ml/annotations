@@ -1,10 +1,10 @@
 from __future__ import annotations
 
-from include.CCLabelProtocol import CCLabelProtocol
-from include.CCRGBAProtocol import CCRGBAProtocol
-from sprite_nodes.CCSpriteBatchNode import CCSpriteBatchNode
-from include.textAlignment import CCTextAlignment
-from cocoa.CCPoint import CCPoint
+from ..include.CCLabelProtocol import CCLabelProtocol
+from ..include.CCRGBAProtocol import CCRGBAProtocol
+from ..sprite_nodes.CCSpriteBatchNode import CCSpriteBatchNode
+from ..include.textAlignment import CCTextAlignment
+from ..cocoa.CCPoint import CCPoint
 
 class CCLabelBMFont(CCSpriteBatchNode, CCLabelProtocol, CCRGBAProtocol):
     def __init__(self) -> None: pass

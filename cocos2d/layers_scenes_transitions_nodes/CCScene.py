@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from cocoa.CCNode import CCNode
+from ..base_nodes.CCNode import CCNode
 
 class CCScene(CCNode):
     @staticmethod

@@ -1,12 +1,12 @@
 from __future__ import annotations
 
-from sprite_nodes.CCSprite import CCSprite
-from include.CCLabelProtocol import CCLabelProtocol
-from include.CCSize import CCSize
-from include.ccFontDefinition import ccFontDefinition
-from include.textAlignment import CCTextAlignment
-from include.textAlignment import CCVerticalTextAlignment
-from include.ccColor3B import ccColor3B
+from ..sprite_nodes.CCSprite import CCSprite
+from ..include.CCLabelProtocol import CCLabelProtocol
+from ..include.CCSize import CCSize
+from ..include.ccFontDefinition import ccFontDefinition
+from ..include.textAlignment import CCTextAlignment
+from ..include.textAlignment import CCVerticalTextAlignment
+from ..include.ccColor3B import ccColor3B
 
 class CCLabelTTF(CCSprite, CCLabelProtocol):
     def __init__(self) -> None: pass

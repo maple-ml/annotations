@@ -1,8 +1,8 @@
 from __future__ import annotations
 
-from cocoa.CCDataVisitor import CCDataVisitor
-from cocoa.CCObjectType import CCObjectType
-from cocoa.CCCopying import CCCopying
+from ..cocoa.CCDataVisitor import CCDataVisitor
+from ..cocoa.CCObjectType import CCObjectType
+from ..cocoa.CCCopying import CCCopying
 
 class CCObject(CCCopying):
     def release(self) -> None: pass

@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from shaders.OpenGL import GLuint
+from ..shaders.OpenGL import GLuint
 
 class CCGLBufferedNode:
     def __init__(self) -> CCGLBufferedNode: pass
